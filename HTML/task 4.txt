@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		HTML DOM Input Password select() Method
+	</title>
+</head>
+<body>
+	Enter Username:
+	<input type="text"
+		value="usename">
+	<br>
+	<br> Enter Password:
+	<input type="password"
+		value="geeks"
+		id="passwd">
+	<br>
+	<br>
+	<button onclick="myGeeks()">
+	Click Here!
+	</button>
+	<script>
+		function myGeeks() {
+			document.getElementById(
+			"passwd").select();
+		}
+	</script>
+</body>
+</html>
